@@ -11,7 +11,7 @@ test:
 
 
 deployment:
-prod:
- branch: master
- heroku:
-   appname: saracj-build-and-deploy
+  prod:
+    branch: master
+    heroku:
+      appname: saracj-build-and-deploy
