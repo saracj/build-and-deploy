@@ -1,10 +1,10 @@
 dependencies:
- override:
-   - npm install
-   - bower install
-+ post:
-+   - grunt build
+  override:
+    - npm install
+    - bower install
+  post:
+    - grunt build
 
-+ test:
-+  override:
-+   - grunt test
+test:
+  override:
+  - grunt test
